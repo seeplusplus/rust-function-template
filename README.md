@@ -7,4 +7,5 @@ Based on the guidance given in [Quickstart: Create a Go or Rust function in Azur
 
 1. `cargo generate --git https://github.com/seeplusplus/rust-function-template`
 2. `cargo build --release`
+3. `cp target/x86_64-unknown-linux-musl/release/project-name ./`
 3. `func start`
